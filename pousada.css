@@ -118,6 +118,7 @@
 
 img {
     width: 100%;
+    border-radius: 2px;
 }
 
 .descricoes {
@@ -141,10 +142,16 @@ img {
   }
 
   .descricao-img {
-    width: 100px;
+    width: 110px;
     height: 113px;
     object-fit: cover;
     margin-left:10px;
+    border-radius: 2px;
+  }
+
+  .descricao-img:hover {
+    transform: scale(1.5);
+
   }
 
   .rodape {
