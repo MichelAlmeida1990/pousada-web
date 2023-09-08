@@ -63,7 +63,7 @@
 }
 
 .titulo-site {
-    background-image: url("/assets/img-fundo.jpg");
+    background-image: url("./assets/img-fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -92,6 +92,7 @@
 }
 
 
+
 .quarto a {
     text-decoration: none;
     color: #333;
@@ -118,7 +119,6 @@
 
 img {
     width: 100%;
-    border-radius: 2px;
 }
 
 .descricoes {
@@ -142,16 +142,10 @@ img {
   }
 
   .descricao-img {
-    width: 110px;
+    width: 100px;
     height: 113px;
     object-fit: cover;
     margin-left:10px;
-    border-radius: 2px;
-  }
-
-  .descricao-img:hover {
-    transform: scale(1.5);
-
   }
 
   .rodape {
